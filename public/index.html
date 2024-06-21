@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href = "index.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>home</title>
+</head>
+<body>
+    <div id="google_translate_element"></div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">BANKA</label>
+        <label class="google_translate_element"></label>
+        
+        
+        
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="ourteam.html">Our Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="registerBtn"><i class="fas fa-user"></i> Register Yourself</button></li>
+            
+        </ul>
+      </nav>
+      
+      <div class="card">
+        <div id="title">
+    <h1>WELCOME TO BANKA</h1>
+    <h1>YOUR QUEST TO FIND HELP IS NOW OVER!</h1>
+</div>
+    <!-- <button id="registerBtn">Register Yourself</button> -->
+
+    <!-- Get Started button -->
+    
+
+    <!-- Dropdown for selecting skills, initially hidden -->
+     <div class="card2">
+    <select id="skillFilter" style="display: none;">
+        <option value="" selected disabled>Select Skill</option>
+        <option value="all">All</option>
+        <option value="Carpentry">Carpentry</option>
+        <option value="Construction Contractor">Construction Contractor</option>
+        <option value="Cook">Cook</option>
+        <option value="Daily Wage Labour">Daily Wage Labour</option>
+        <option value="Driving">Driving</option>
+        <option value="Electrical">Electrical</option>
+        <option value="Fruit Plucker">Fruit Plucker</option>
+        <option value="House Helper">House Helper</option>
+        <option value="Motor Mechanic">Motor Mechanic</option>
+        <option value="Plumbing">Plumbing</option>
+        <option value="Tiling">Tiling</option>
+        <option value="Welding">Welding</option>
+        <option value="Wood Contractor">Wood Contractor</option> 
+        <option value="Car Rental">Car Rental</option> 
+
+    </select>
+    <select id="districtFilter" style="display: none;">
+        <option value="" selected disabled>Select District</option>
+        <option value="all">All</option>
+        <option value="Araria">Araria</option>
+<option value="Arwal">Arwal</option>
+<option value="Aurangabad">Aurangabad</option>
+<option value="Banka">Banka</option>
+<option value="Begusarai">Begusarai</option>
+<option value="Bhagalpur">Bhagalpur</option>
+<option value="Bhojpur">Bhojpur</option>
+<option value="Buxar">Buxar</option>
+<option value="Darbhanga">Darbhanga</option>
+<option value="East Champaran">East Champaran</option>
+<option value="Gaya">Gaya</option>
+<option value="Gopalganj">Gopalganj</option>
+<option value="Jamui">Jamui</option>
+<option value="Jehanabad">Jehanabad</option>
+<option value="Kaimur">Kaimur</option>
+<option value="Katihar">Katihar</option>
+<option value="Khagaria">Khagaria</option>
+<option value="Kishanganj">Kishanganj</option>
+<option value="Lakhisarai">Lakhisarai</option>
+<option value="Madhepura">Madhepura</option>
+<option value="Madhubani">Madhubani</option>
+<option value="Munger">Munger</option>
+<option value="Muzaffarpur">Muzaffarpur</option>
+<option value="Nalanda">Nalanda</option>
+<option value="Nawada">Nawada</option>
+<option value="Patna">Patna</option>
+<option value="Purnia">Purnia</option>
+<option value="Rohtas">Rohtas</option>
+<option value="Saharsa">Saharsa</option>
+<option value="Samastipur">Samastipur</option>
+<option value="Sheohar">Sheohar</option>
+<option value="Sheikhpura">Sheikhpura</option>
+<option value="Saran">Saran</option>
+<option value="Sitamarhi">Sitamarhi</option>
+<option value="Supaul">Supaul</option>
+<option value="Siwan">Siwan</option>
+<option value="Vaishali">Vaishali</option>
+    </select>
+
+    <button id="getStarted">Find Your Help</button>
+    
+    
+
+    
+    
+    <!-- Load Data button, initially hidden -->
+    <button id="loadData" style="display: none;">Load Data</button>
+    <div id="data"></div>
+    <!-- Container for displaying data -->
+    <div id="data"></div>
+
+    <!-- Container for displaying data -->
+    <div id="data" style="display: none;"></div>
+
+    <!-- Button to hide data -->
+    <button id="hideData" style="display: none;">Hide Data</button>
+</div>
+</div>
+
+   
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' , includedLanguages: 'hi,en'  },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script src = "script.js">
+        
+    </script>
+
+
+
+</body>
+</html>
